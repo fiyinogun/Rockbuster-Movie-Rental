@@ -1,6 +1,6 @@
 # Rockbuster-movie-rental
 Analysis of movie rental data using SQL. CareerFoundry student project.
-## Background
+### Background
 Rockbuster Stealth LLC is a fictitious movie rental company facing stiff competition from streaming services. The management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
 ### Objective
 Provide insights to inform the launch strategy for the new online service.
