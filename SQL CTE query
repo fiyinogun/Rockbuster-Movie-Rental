@@ -3,10 +3,10 @@
 WITH top_cities 						
 AS 						
 (						
-SELECT 						
-	   C.city, 					
-	   D.country, 					
-	   COUNT (A.customer_id) AS customer_count					
+SELECT 
+	C.city, 
+	D.country, 
+	COUNT (A.customer_id) AS customer_count					
 FROM customer A						
 INNER JOIN address B ON A.address_id = B.address_id						
 INNER JOIN city C ON B.city_id = C.city_id						
@@ -25,10 +25,10 @@ WHERE D.country IN
 	GROUP BY D.country, C.city					
 	ORDER BY customer_count DESC LIMIT 10					
 ) 						
-SELECT 						
-	  A.customer_id, A.first_name, A.last_name,					
-	  C.city, D.country, 					
-	  SUM(E.amount) AS total_amount_paid					
+SELECT 
+	A.customer_id, A.first_name, A.last_name,
+	C.city, D.country, 
+	SUM(E.amount) AS total_amount_paid					
 FROM customer A						
 INNER JOIN address B ON A.address_id = B.address_id						
 INNER JOIN city C ON B.city_id = C.city_id						
