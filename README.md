@@ -10,9 +10,5 @@ The data used for the analysis was provided by CareerFoundry and is avaialable [
 - PostgreSQL
 - DBVisualizer
 - Tableau
-## Some key business questions
-- What countries are Rockbuster customers based in?
-- How does sales vary between geographic regions?
-- Which movies contributed the most/least to revenue gain?
 ## Results
 The findings and recommendations are presented [here](https://public.tableau.com/app/profile/fiyin4479/viz/DITask3_10-PresentingSQLResultsPresentation/Rockbuster)
